@@ -217,9 +217,9 @@
 
           $.ajax({
 
-            /*url: 'http://api.linkpreview.net/?key=5a915cc13c0cf87602fc8d5b4989b1fda114b7b4b597c&q=' + this.props.url,*/
+            url: 'http://api.linkpreview.net/?key=5a96f719888aed3e0182476466a3c2fcc74778b89ea6b&q=' + this.props.url,
 
-            url: 'http://api.linkpreview.net/?key=123456&q=https://www.google.com',
+            /*url: 'http://api.linkpreview.net/?key=123456&q=https://www.google.com',*/
 
             success: this.setData
 
