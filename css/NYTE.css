@@ -99,31 +99,31 @@
     }
 
     .footer {
-    	 flex-shrink: 0;
-    	 margin-top: auto;
+         flex-shrink: 0;
+         margin-top: auto;
     }
 
 @media only screen and (max-width: 480px) {
-	.heading {
+    .heading {
 
         font-family: 'Alegreya';
         font-size: 15px;
     }
 
-	.article {
+    .article {
 
-		 display: flex;
+         display: flex;
          float: left;
          width: 60%;
          flex-wrap: wrap;
-	}
+    }
 
-	.article>* {
-        flex: 0 0 40%;
+    .article>* {
+        flex: 0 0 80%;
         margin: 5px;
     } 
 
-	.oneArticle {
+    .oneArticle {
 
         border: solid 1px black;
         width: 100%;
@@ -151,20 +151,20 @@
 
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
 
-	.article {
+    .article {
 
-		 display: flex;
+         display: flex;
          float: left;
          width: 65%;
          flex-wrap: wrap;
-	}
+    }
 
     .article>* {
-        flex: 0 0 30%;
+        flex: 0 0 35%;
         margin: 5px;
     } 
 
-	.oneArticle {
+    .oneArticle {
 
         border: solid 1px black;
         width: 100%;
